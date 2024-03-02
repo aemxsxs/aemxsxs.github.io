@@ -10,7 +10,43 @@
     <link rel="stylesheet" href=style.css>
       <meta charset="utf-8">             
     <title>About Me</title>
-    
+    <style>
+        ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 30;
+           overflow: hidden;
+           position:fixed;
+           top: 0;
+           width: 100%;
+           background-color: #F05D23;
+        }  
+        li {
+           display: inline;
+           float: right;
+        }
+       
+       
+         
+        li a {
+           display: block;
+           color: #000;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+        } 
+       
+        .logo {
+           position: absolute; 
+           top: 0;
+           left: 0;
+           position: relative;
+        }
+           
+        li a:hover {
+           background-color: #8963BA;
+        }
+       </style>
     <head>
      <h1>
      About Me
@@ -43,7 +79,13 @@
     
     </section>
     <br>
-    
+    <nav>
+        <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#Projects">Project</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
     <section>
         <footer>
            <p>Eugene Moses <br>
