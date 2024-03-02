@@ -4,27 +4,32 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #F05D23;
+}  
+
+li {
+    display: inline;
 }
-  
-  li {
+
+li {
     float: right;
 }
+
   
-  li a {
+li a {
     display: block;
     color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-    
-  .logo {
+
+.logo {
     position: absolute; 
     top: 0;
     left: 0;
     position: relative;
 }
     
-  li a:hover {
+li a:hover {
     background-color: #8963BA;
 }
