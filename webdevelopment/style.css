@@ -11,19 +11,22 @@
     background-color: #694794; 
     border-color: #694794; 
 }
+
 h1 {
     color: #000;
     font-family: verdana;
     font-size: 300%;
     text-align: center; 
 } 
-  h2{
+
+h2 {
       color: #000
-      font-family: Bordini;
+      font-family: georgia;
       font-size: 200%;
 }
-  p  {
+
+p {
     color: #000;
-    font-family: courier new;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 160%;
 }
