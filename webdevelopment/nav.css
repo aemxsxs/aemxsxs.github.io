@@ -1,0 +1,62 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  
+  .entireBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F05D23;
+  }
+  
+  li {
+    float: right;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #8963BA;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F05D23;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .dropdown-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-content ul li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
