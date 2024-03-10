@@ -41,13 +41,13 @@ p {
     border-radius: 35px;
   }
 
- p indent {
+ p.indent {
     content: ""; 
     display: inline-block; 
     width: 20px;
 }
 
-p::first-letter bigLetter {
+p.bigLetter::first-letter {
     color: #F62DAE;
     font-size: 250%;
 }
