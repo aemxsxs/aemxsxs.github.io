@@ -46,8 +46,9 @@ p {
     font-size: 250%;
   }
 
-  p::before {
+
+ .container p:not(:first-child) {
     content: ""; 
-     display: inline-block; 
-     width: 20px;;
- }
+    display: inline-block; 
+    width: 20px;
+}
