@@ -31,3 +31,12 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 160%;
 }
+
+div {
+    background-color: #8963BA;
+    width: relative;
+    border: 15px solid #F62DAE;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 35px;
+  }
