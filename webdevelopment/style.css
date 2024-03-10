@@ -41,7 +41,7 @@ p {
     border-radius: 35px;
   }
 
-  .container p:not(:first-child) {
+ p indent{
     content: ""; 
     display: inline-block; 
     width: 20px;
