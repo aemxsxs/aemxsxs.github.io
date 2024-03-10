@@ -40,3 +40,8 @@ div {
     margin: 20px;
     border-radius: 35px;
   }
+
+  p::first-letter {
+    color: #000;
+    font-size: xx-large;
+  }
