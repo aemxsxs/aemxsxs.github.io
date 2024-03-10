@@ -32,7 +32,7 @@ p {
     font-size: 160%;
 }
 
-div1 {
+.box {
     background-color: #8963BA;
     width: relative;
     border: 15px solid #F62DAE;
