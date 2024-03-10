@@ -41,11 +41,8 @@ p {
     border-radius: 35px;
   }
 
- .container p:not(:first-child) {
-    content: ""; 
-    display: inline-block; 
-    width: 20px;
-}
+
+
 p::first-letter {
     color:  #fff;
     font-size: 250%;
