@@ -96,6 +96,7 @@
   
     .dropdown-content ul li {
       text-align: left;
+      display: block; 
     }
   
     .navbar.active .entireBar {
