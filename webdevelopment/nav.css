@@ -16,7 +16,7 @@
   }
   
   li {
-    float: left;
+    float: right;
     display: inline;
   }
   
@@ -64,7 +64,7 @@
     display: none; 
     cursor: pointer;
     padding: 15px;
-    float: left;
+    float: right;
     background-color: #F05D23;
     border: none;
     position: fixed;
@@ -86,7 +86,7 @@
     }
   
     .entireBar {
-      display: block; 
+      display: none; 
     }
    
     .dropdown-content {
