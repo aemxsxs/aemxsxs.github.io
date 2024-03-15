@@ -15,7 +15,7 @@
 h1 {
     color: #000;
     font-family: verdana;
-    font-size: 300%;
+    font-size: 200%;
     padding-top: 40px;
     text-align: center; 
 } 
@@ -23,13 +23,13 @@ h1 {
 h2 {
       color: #000
       font-family: georgia;
-      font-size: 200%;
+      font-size: 100%;
 }
 
 p {
     color: #000;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 160%;
+    font-size: 100%;
 }
 
 .box {
