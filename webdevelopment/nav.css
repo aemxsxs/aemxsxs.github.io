@@ -16,7 +16,7 @@
   }
   
   li {
-    float: left;
+    float: right;
     display: inline;
   }
   
@@ -98,9 +98,8 @@
     }
     .navbar ul li "{"
       diplay: block;
-      
-    "
-  }"
+    }
+
     .navbar ul li a:hover {
       background-color: #8963BA;
     }
