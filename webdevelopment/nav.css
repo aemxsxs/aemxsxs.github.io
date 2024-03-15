@@ -96,10 +96,8 @@
       left: 0;
       width: 100%;
     }
-    .navbar li{
-      display: block;
-    }
-    
+  
+
     .navbar ul li {
       display: block;
     }
