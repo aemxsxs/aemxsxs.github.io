@@ -102,4 +102,12 @@
     .navbar.active .entireBar {
       display: block;
     }
+    .navbar .entireBar > li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .navbar .entireBar > li a {
+      padding: 10px 16px;
+    }
   }
