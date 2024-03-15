@@ -86,7 +86,7 @@
     }
   
     .entireBar {
-      display: block; 
+      display: none; 
     }
    
     .dropdown-content {
