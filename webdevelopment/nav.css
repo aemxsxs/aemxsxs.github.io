@@ -16,7 +16,8 @@
   }
   
   li {
-    display: block;
+    display: inline;
+    float: left;
   }
   
   li a {
