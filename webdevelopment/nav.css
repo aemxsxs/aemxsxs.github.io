@@ -92,7 +92,9 @@
     .dropdown-content {
       position: relative; 
       background-color: #F05D23;
-      display: block;
+      top: 100%;
+      left: 0;
+      width: 100%;
     }
   
     .dropdown-content ul li {
@@ -104,4 +106,7 @@
       display: block;
     }
    
+    .navbar .dropdown.active .dropdown-content {
+      display: block;
+    }
   }
