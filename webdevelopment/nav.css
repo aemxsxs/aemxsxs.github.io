@@ -88,10 +88,14 @@
     .entireBar {
       display: none; 
     }
-  
+    .navbar.active .entireBar > li {
+      display: block;
+    }
+    
     .dropdown-content {
       position: relative; 
-      background-color: #F05D23; 
+      background-color: #F05D23;
+      display: block;
     }
   
     .dropdown-content ul li {
@@ -102,12 +106,5 @@
     .navbar.active .entireBar {
       display: block;
     }
-    .navbar .entireBar > li {
-      display: block;
-      margin-bottom: 10px;
-    }
-  
-    .navbar .entireBar > li a {
-      padding: 10px 16px;
-    }
+   
   }

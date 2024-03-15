@@ -62,13 +62,9 @@
 
 </body>
 <script>
-  function myFunction() {
-    var x = document.getElementById(".navbar");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+  function toggleMenu() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
   }
   </script>
 
