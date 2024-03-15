@@ -86,12 +86,9 @@
     }
   
     .entireBar {
-      display: none; 
+      display: block; 
     }
-    .navbar.active .entireBar > li {
-      display: block;
-    }
-    
+   
     .dropdown-content {
       position: relative; 
       background-color: #F05D23;
