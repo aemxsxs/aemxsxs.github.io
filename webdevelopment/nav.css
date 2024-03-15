@@ -16,8 +16,7 @@
   }
   
   li {
-    float: right;
-    display: inline;
+    display: block;
   }
   
   li a {
@@ -76,7 +75,7 @@
   .hamburger .line {
     width: 30px;
     height: 3px;
-    background-color: #fff;
+    background-color: #6BD425;
     margin: 6px 0;
   }
 
@@ -96,6 +95,11 @@
       left: 0;
       width: 100%;
     }
+    .navbar ul li "{"
+      diplay: block;
+      
+    "
+  }"
     .navbar ul li a:hover {
       background-color: #8963BA;
     }
