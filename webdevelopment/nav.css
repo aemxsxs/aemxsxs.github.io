@@ -91,12 +91,14 @@
    
     .dropdown-content {
       position: relative; 
-      background-color: #F05D23;
+      background-color: #6BD425;
       top: 100%;
       left: 0;
       width: 100%;
     }
-  
+    .navbar ul li a:hover {
+      background-color: #8963BA;
+    }
     .dropdown-content ul li {
       text-align: left;
       display: block; 
