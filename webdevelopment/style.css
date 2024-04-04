@@ -50,3 +50,48 @@ p.bigLetter::first-letter {
     font-size: 250%;
 }
 
+@media print {
+    body,
+    h1,
+    p,
+    ul,
+    ol,
+    blockquote,
+    footer {
+      color: black;
+    }
+  
+
+    body,
+    h1,
+    p,
+    ul,
+    ol,
+    blockquote,
+    footer {
+      font-family: garamond;
+    }
+  
+  
+    h1 {
+      font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+    }
+  
+
+    body {
+      margin: 1in;
+    }
+  
+
+    h1,
+    p,
+    ul,
+    ol,
+    blockquote,
+    footer {
+      page-break-inside: avoid; 
+    }
+  }
+  
