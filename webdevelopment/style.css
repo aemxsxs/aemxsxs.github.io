@@ -73,11 +73,18 @@ p.bigLetter::first-letter {
     }
   
   
-    h1 {
-      font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
-    }
+
+
+   .uniquifier {
+          font-family: "Workbench", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+          font-variation-settings:
+            "BLED" 0,
+            "SCAN" 0;
+        }
+
   
 
     body {
