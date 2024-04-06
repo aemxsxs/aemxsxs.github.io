@@ -72,20 +72,18 @@ p.bigLetter::first-letter {
       font-family: garamond;
     }
   
-  
+    @font-face {
+      font-family: 'Workbench';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Workbench Regular'), local('Workbench-Regular'),
+          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff2') format('woff2'),
+          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff') format('woff');
+    }
 
-
-   .uniquifier {
-          font-family: "Workbench", sans-serif;
-          font-optical-sizing: auto;
-          font-weight: 400;
-          font-style: normal;
-          font-variation-settings:
-            "BLED" 0,
-            "SCAN" 0;
- }
-
-  
+  h1 {
+    font-family: 'Workbench', sans-serif;
+  }
 
     body {
       margin: 0.5in;
