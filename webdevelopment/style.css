@@ -67,7 +67,10 @@ p.bigLetter::first-letter {
       font-weight: 400;
       font-style: normal;
     }
-    
+
+    h1 {
+      font-family: 'Yellowtail', cursive;
+    }
 
     .yellowtail{
       font-family: 'Yellowtail', cursive;
@@ -76,7 +79,6 @@ p.bigLetter::first-letter {
     body,
     p,
     ul,
-    ol,
     blockquote,
     footer {
       font-family: garamond;
