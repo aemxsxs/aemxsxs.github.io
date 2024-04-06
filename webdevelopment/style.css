@@ -57,7 +57,7 @@ p.bigLetter::first-letter {
     ul,
     ol,
     blockquote,
-    footer {
+    footer 
       color: black;
     }
     
