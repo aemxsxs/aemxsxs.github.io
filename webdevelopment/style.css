@@ -69,7 +69,7 @@ p.bigLetter::first-letter {
     }
     
 
-    h1 {
+    .yellowtail{
       font-family: 'Yellowtail', cursive;
     }
 
@@ -93,4 +93,9 @@ p.bigLetter::first-letter {
       page-break-inside: avoid; 
     }
 
+
+    .smallimage {
+      width: 200px;
+      height: auto;
+    }
   
