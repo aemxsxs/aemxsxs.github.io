@@ -81,7 +81,7 @@ p.bigLetter::first-letter {
           url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff') format('woff');
     }
 
-  .workbench{
+  h1 {
     font-family: 'Workbench', sans-serif;
   }
 
