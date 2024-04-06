@@ -8,8 +8,8 @@
 }
 
 .resume-link:hover {
-    background-color: #694794; 
-    border-color: #694794; 
+    background-color: #F05D23; 
+    border-color: #F05D23; 
 }
 
 h1 {
@@ -81,7 +81,7 @@ p.bigLetter::first-letter {
           url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff') format('woff');
     }
 
-  h1 {
+  .workbench{
     font-family: 'Workbench', sans-serif;
   }
 
