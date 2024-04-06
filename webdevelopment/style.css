@@ -93,8 +93,7 @@ p.bigLetter::first-letter {
       page-break-inside: avoid; 
     }
 
-
-    .smallimage {
+.smallimage {
       width: 10px;
       height: 10px;
     }
