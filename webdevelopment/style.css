@@ -60,7 +60,16 @@ p.bigLetter::first-letter {
     footer {
       color: black;
     }
-  
+    
+    @font-face {
+      font-family: 'Workbench';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Workbench Regular'), local('Workbench-Regular'),
+          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff2') format('woff2'),
+          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff') format('woff');
+    }
+
     h1 {
       font-family: 'Workbench', sans-serif;
     }
@@ -74,14 +83,6 @@ p.bigLetter::first-letter {
       font-family: garamond;
     }
   
-    @font-face {
-      font-family: 'Workbench';
-      font-style: normal;
-      font-weight: 400;
-      src: local('Workbench Regular'), local('Workbench-Regular'),
-          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff2') format('woff2'),
-          url('https://fonts.gstatic.com/s/workbench/v11/LYjbdGbiklMoFIHNyTz0pEz5cO8Mk0o.woff') format('woff');
-    }
 
 
   }
