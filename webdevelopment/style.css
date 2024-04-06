@@ -96,11 +96,14 @@ p.bigLetter::first-letter {
     }
 
 .smallimage {
-      width: 10px;
-      height: 10px;
-    }
+      width: 15px;
+      height: 15px
+      transition: transform 0.2s;
+}
   
-
+ .smallimage:hover {
+      transform: scale(1.1); 
+}
 
 footer {
   background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEyODYtYmFja2dyb3VuZC0wOC5qcGc.jpg.webp'); 
