@@ -109,3 +109,41 @@ footer {
   background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEyODYtYmFja2dyb3VuZC0wOC5qcGc.jpg.webp'); 
   background-size: cover; 
 }
+
+.layout {
+  width: 1366px;
+  height: 768px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.section {
+  background-color: #8963BA;
+    width: relative;
+    border: 15px solid #F62DAE;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 35px;
+}
+
+.section1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.section2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.section3 {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.section4 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
