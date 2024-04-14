@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en-US"><head>
+    <!--
+        Title: Webpage Template
+        Use:  For class 
+        Author:  Eugene Moses
+        School/Term:  University of Missouri - Columbia/Spring 2024 
+        eveloped: Feb 6th 
+        Tested:  Feb 6th 
+    -->             
+    <link rel="stylesheet" href=style.css>
+    <link rel="stylesheet" href="nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">             
+    <nav>
+    <div class="navbar">
+      <button class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button>
+        <ul class="entireBar">
+          <li class="dropdown">
+            <a href="#">Projects</a>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+</nav>
+
+<h1>Project 1 </h1>
+<h2>Before</h2>
+<img src="before.png" alt="Before project">
+<h2>After</h2>
+<img src="Project1.jpg" alt="Project 1">
+
+<div class="box">
+    I Forgot How To Paint (2022)
+    Acrylic on wood canvas 
+    3ft X 3 ft
+    
+    
+    Full story on full solo project page
+    Discover the story behind this captivating piece, which originated as an unexpected acquisition during a late-night IHOP adventure in my freshman year. This stolen painting, salvaged before its destiny was altered, serves as a tangible memory of a spontaneous moment when inspiration struck. It wasn't until a  Zoom orientation for my internship during a random summer that I had an epiphany—I had forgotten how to paint. Three years had elapsed without any artistic endeavors, an unusual hiatus for someone like me.
+    
+    Recognizing this creative block was the first step in reclaiming my artistic identity. The process, facilitated by the quick-drying nature of the medium, took a mere two hours. Unplanned and spontaneous, the layers converged seamlessly, culminating in a final signature—something I hadn't done in what felt like an eternity.
+    
+    Since this transformative experience, I have not forgotten the joy of painting. The subsequent projects that followed this painting are a testament to the rekindled passion and the commitment to never let environmental factors stifle my true nature again. Explore the journey that began with this stolen painting, leading to a renewed dedication to artistic expression and authenticity.
+    
+
+</div>
+
+
+<script>
+    function toggleMenu() {
+      var navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('active');
+    }
+    </script>
+  
+  <section>
+    <footer>
+     <p>Eugene Moses <br>
+       <img src="apple-touch-icon.png" class="smallimage"><a href="mailto:aemdwb@umsystem.edu">aemdwb@umsystem.edu</a></p>
+     
+        <p> <img src="apple-touch-iconphone.png" class="smallimage">1+888-888-8888</p>
+  
+      <p>© 2024 Eugene Moses</p>
+       </footer>
+   </section>
