@@ -124,8 +124,8 @@ footer {
   overflow: hidden;
 }
 
-.section img {
-  max-width: 100%; 
+.sectionimg {
+  max-width: 70px; 
   height: auto; 
   display: block; 
   position: absolute;
