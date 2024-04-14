@@ -111,8 +111,8 @@ footer {
 }
 
 .layout {
-  width: relative;
-  height: auto;
+  width: 50%;
+  height: 50%;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
@@ -120,12 +120,7 @@ footer {
 }
 
 .section {
-  background-color: #8963BA;
-    width: relative;
-    border: 15px solid #F62DAE;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 35px;
+  
 }
 
 .section1 {
