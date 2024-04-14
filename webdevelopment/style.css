@@ -105,6 +105,16 @@ p.bigLetter::first-letter {
       transform: scale(2.5); 
 }
 
+.smallerimage {
+  width: 50%;
+  height: auto:
+}
+
+.miniimage {
+width: 25%;
+height: auto:
+}
+
 footer {
   background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEyODYtYmFja2dyb3VuZC0wOC5qcGc.jpg.webp'); 
   background-size: cover; 
