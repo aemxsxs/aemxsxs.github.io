@@ -18,7 +18,7 @@ nav ul li {
     position: relative;
     padding: 10px 15px;
     box-sizing: border-box;
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
 
 }
 
@@ -36,7 +36,7 @@ nav ul li ul {
     position: absolute;
     top: 40px;
     left: 0;
-    background-color: #000;
+    background-color: #fff;
     display: block;
     width: 200px;
     visibility: hidden;
@@ -50,7 +50,7 @@ nav ul li:hover {
 }
 
 nav ul li:hover ul {
-    background-color: rgb(0, 0, 0);
+    background-color: #F62DAE;
     visibility: visible;
     padding-top: 0;
     margin-top: 0;
@@ -103,4 +103,4 @@ nav ul li ul li {
 
 
 
-
+1
