@@ -11,31 +11,26 @@
     <link rel="stylesheet" href="nav.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset="utf-8">             
-    <nav>
-    <div class="navbar">
-      <button class="hamburger" onclick="toggleMenu()">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </button>
-        <ul class="entireBar">
-          <li class="dropdown">
-            <a href="project.html">Projects</a>
-            <div class="dropdown-content">
-              <ul>
-                <li><a href="Project1.html">Project 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contactpage.html">Contact</a></li>
-          <li><a href="reflection.html">Reflection</a></li>
-          <li><a href="index.html">Home</a></li>
+
+    <label id="ham" for="hamburger">&#9776</label>
+    <input type="checkbox" id="hamburger">
+    <nav id="NavBox">
+    
+        <ul>
+            <li class="active"><a href="index.html" id="Home">Home</a></li>
+            <li><a href="about.html" id="About">About</a></li>
+            <li><a href="Project.html" id="Projects">Projects</a>
+                <ul>
+                    <li><a href="project" id="Link1">Project 1</a></li>
+                    <li><a href="" id="Link2">Project 2</a></li>
+                    <li><a href="" id="Link3">Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="contactpage.html">Contact</a></li>
+            <li><a href="reflection.html">Reflection</a></li>
+    
         </ul>
-      </div>
-</nav>
+    </nav>
 
 <h1>Project 1</h1>
 <h2 class="centeredtext">Before</h2>
@@ -59,13 +54,6 @@
 
 </div>
 
-
-<script>
-    function toggleMenu() {
-      var navbar = document.querySelector('.navbar');
-      navbar.classList.toggle('active');
-    }
-    </script>
   
   <section>
     <footer>
