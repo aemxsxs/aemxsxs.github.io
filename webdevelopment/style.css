@@ -156,31 +156,9 @@ height: auto:
 footer {
   background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEyODYtYmFja2dyb3VuZC0wOC5qcGc.jpg.webp'); 
   background-size: cover; 
+  bottom: 0;
 }
 
-.layout {
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-}
-
-.section {
-  position: relative;
-  overflow: hidden;
-}
-
-.sectionimg {
-  max-width: 100%; 
-  height: auto; 
-  display: block; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 @media only screen and (min-width: 640px) {
 
