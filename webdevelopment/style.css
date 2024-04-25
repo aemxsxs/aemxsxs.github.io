@@ -249,3 +249,36 @@ body {
   margin: .25in .25in .25in .25in;
   background-color: #6BD425;
 }
+
+table {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #8963BA; 
+  border-radius: 10px; 
+  background-color: #F62DAE; 
+  width: 80%; 
+  max-width: 600px; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+th, td {
+  border: 1px solid #F62DAE; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+thead th {
+  background-color: #F05D23; 
+  color: #fff; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F62DAE;
+}
+
+tfoot td {
+  background-color: #8963BA; 
+  color: #fff;
+}
