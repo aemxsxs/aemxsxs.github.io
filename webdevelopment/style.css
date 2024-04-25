@@ -129,7 +129,8 @@ input[type=submit]:hover {
       height: 15px
       transition: transform 0.2s;
 }
-  
+
+
  .smallimage:hover {
       transform: scale(2.5); 
 }
@@ -272,9 +273,9 @@ footer {
  .projectimage2 {
    width: 86%;
  }
- 
+
  table {
-  padding: 20px;
+  padding: 5px;
   border: 2px solid #fff; 
   border-radius: 10px; 
   background-color: #F62DAE; 
