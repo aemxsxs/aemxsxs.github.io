@@ -272,6 +272,38 @@ footer {
  .projectimage2 {
    width: 86%;
  }
+ 
+ table {
+  padding: 20px;
+  border: 2px solid #fff; 
+  border-radius: 10px; 
+  background-color: #F62DAE; 
+  width: 80%; 
+  max-width: relative; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+th, td {
+  border: 1px solid #fff; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+thead th {
+  background-color: #F05D23; 
+  color: #000; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F62DAE;
+}
+
+tfoot td {
+  background-color: #6BD425; 
+  color: #000;
+}
 }
 
 
