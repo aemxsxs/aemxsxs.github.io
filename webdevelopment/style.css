@@ -234,6 +234,14 @@ footer {
   body {
     margin: .1in .1in .1in .1in;
   }
+  
+ .projectimage1 {
+   width: 96%;
+ }
+
+ .projectimage2 {
+   width: 86%;
+ }
 }
 
 
