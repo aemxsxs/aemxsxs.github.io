@@ -173,7 +173,7 @@ th, td {
 
 thead th {
   background-color: #F05D23; 
-  color: #fff; 
+  color: #000; 
 }
 
 tbody tr:nth-child(even) {
@@ -182,7 +182,7 @@ tbody tr:nth-child(even) {
 
 tfoot td {
   background-color: #6BD425; 
-  color: #fff;
+  color: #000;
 }
 footer {
   background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2pvYjEyODYtYmFja2dyb3VuZC0wOC5qcGc.jpg.webp'); 
